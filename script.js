@@ -8,6 +8,7 @@ function getBooks() {
     <img>
     <p>Titel: ${book.titel}</p>
     <p>Författare: ${book.forfattare}</p>
+    
     `;
     bookContainerEl.append(card);
   });
