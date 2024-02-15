@@ -48,7 +48,7 @@ footer button {
 
   flex-direction: column;
   width: 150px;
-  border: 1px coral solid;
+  border: 1px rgb(255, 255, 255) solid;
 
   padding: 20px;
 }
