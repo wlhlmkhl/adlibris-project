@@ -130,7 +130,3 @@ const books = [
     antalSidor: 400,
   },
 ];
-
-// Test för att hämta information från ett objekt i arrayen
-console.log(books[3].titel); // Sagovärldens Mysterier
-console.log(books[5].forfattare); // Liselotte Eriksson
