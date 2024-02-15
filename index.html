@@ -6,6 +6,7 @@
     <title>Adlibris</title>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
     <script src="books.js"></script>
   </head>
@@ -13,29 +14,31 @@
     <!----------------------- HEADER CHARLES START ------------ -->
 
     <header>
-      <div class="rabattSpel">10% rabat på alla spel med kod SPEL10 >></div>
+      <div class="rabattSpel">10% rabatt på alla spel med kod SPEL10 >></div>
       <div class="headerContainer">
-        <div class="imgContainer">
-          <img src="/Assets/Adlibris-logo-vector.png" alt="" />
-        </div>
-        <div class="searchBar">
-          <select name="genre" id="genre">
-            <option value="all">Alla kategorier</option>
-            <option value="barn">Barnpyssel</option>
-            <option value="fest">Fest & presenter</option>
-            <option value="garn">Garn & stickning</option>
-            <option value="papper">Papper & kontor</option>
-            <option value="DIY">Konstnärsmaterial & DIY</option>
-            <option value="leksaker">Leksaker</option>
-            <option value="pussel">Sällskapsspel & pussel</option>
-          </select>
-          <input
-            type="text"
-            name="search"
-            id="search"
-            placeholder="Sök efter din nästa läsupplevelse"
-          />
-          <button>Sök</button>
+        <div class="headerRow">
+          <div class="imgContainer">
+            <img src="/Assets/Adlibris-logo-vector.png" alt="" />
+          </div>
+          <div class="searchBar">
+            <select name="genre" id="genre">
+              <option value="all">Alla kategorier</option>
+              <option value="barn">Barnpyssel</option>
+              <option value="fest">Fest & presenter</option>
+              <option value="garn">Garn & stickning</option>
+              <option value="papper">Papper & kontor</option>
+              <option value="DIY">Konstnärsmaterial & DIY</option>
+              <option value="leksaker">Leksaker</option>
+              <option value="pussel">Sällskapsspel & pussel</option>
+            </select>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Sök efter din nästa läsupplevelse"
+            />
+            <button id="searchBtn">Sök</button>
+          </div>
         </div>
       </div>
     </header>
